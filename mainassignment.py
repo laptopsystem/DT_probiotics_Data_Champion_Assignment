@@ -11,28 +11,27 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 
 
 
-# Load the dataset
+# Load dataset
 url = "https://github.com/laptopsystem/DT_probiotics_Data_Champion_Assignment/blob/main/companies.csv"
 df = pd.read_csv(url)
 
-# Clean and preprocess the data
+# Cleaning ,preprocess data
 df_cleaned = df.drop_duplicates()
 df_cleaned['Revenue'] = df_cleaned['Revenue'].fillna(df_cleaned['Revenue'].mean())
 df_cleaned['Growth_Rate'] = df_cleaned['Growth_Rate'].fillna(df_cleaned['Growth_Rate'].mean())
 df_cleaned['Company_ID'] = df_cleaned['Company_ID'].fillna(-1)
 df_cleaned['Prospect'] = df_cleaned['Growth_Rate'].apply(lambda x: 'Yes' if x > 20 else 'No')
 
-# Streamlit app layout
+# app layout
 st.title('DT Probiotics Data Champion - Automated Dashboard')
 st.write('This is a dashboard to analyze company data and predict prospects.')
 
-# Links for Dataset and Google Colab Notebook
+# Links for Dataset 
 st.write("### 1. Dataset Link: [Link](https://github.com/laptopsystem/DT_probiotics_Data_Champion_Assignment/blob/main/companies.csv)")
-
 st.write("### 3. Github: [Link](https://github.com/laptopsystem/DT_probiotics_Data_Champion_Assignment)")
 # Data Display Section
 st.subheader('Data Overview')
-st.write(df_cleaned.head())  # Show the first 5 rows
+st.write(df_cleaned.head())  #  5 rows
 
 # Scatter plot of Revenue vs Growth Rate
 st.subheader('Revenue vs Growth Rate')
