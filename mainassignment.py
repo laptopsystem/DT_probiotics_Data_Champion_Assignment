@@ -27,9 +27,9 @@ st.title('DT Probiotics Data Champion - Automated Dashboard')
 st.write('This is a dashboard to analyze company data and predict prospects.')
 
 # Links for Dataset and Google Colab Notebook
-st.write("### 1. Dataset Link: [Link](https://github.com/Rahulaggl/DT-Probiotics-Data-Champion-Assignment/blob/main/Task_Records.csv)")
-st.write("### 2. Google Colab Notebook: [Link](https://colab.research.google.com/drive/1J68d3Yn5sM_WU219_-dKOS86aZykOSdP#scrollTo=aHP3iCkZKk1l)")
-st.write("### 3. Github: [Link](https://github.com/Rahulaggl/DT-Probiotics-Data-Champion-Assignment)")
+st.write("### 1. Dataset Link: [Link](https://github.com/laptopsystem/DT_probiotics_Data_Champion_Assignment/blob/main/companies.csv)")
+
+st.write("### 3. Github: [Link](https://github.com/laptopsystem/DT_probiotics_Data_Champion_Assignment)")
 # Data Display Section
 st.subheader('Data Overview')
 st.write(df_cleaned.head())  # Show the first 5 rows
