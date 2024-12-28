@@ -28,7 +28,7 @@ st.write('This is a dashboard to analyze company data and predict prospects.')
 
 # Links for Dataset 
 st.write("### 1. Dataset Link: [Link](https://github.com/laptopsystem/DT_probiotics_Data_Champion_Assignment/blob/main/companies.csv)")
-st.write("### 3. Github: [Link](https://github.com/laptopsystem/DT_probiotics_Data_Champion_Assignment)")
+st.write("### 2. Github: [Link](https://github.com/laptopsystem/DT_probiotics_Data_Champion_Assignment)")
 # Data Display Section
 st.subheader('Data Overview')
 st.write(df_cleaned.head())  #  5 rows
