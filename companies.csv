@@ -1,41 +1,101 @@
-x,Company Name,Website
-1,Nestle,www.nestle.com
-2,Dr. Reddy's Laboratories,www.drreddys.com
-3,Coca,colacompany.com
-4,Pfizer,www.pfizer.com
-5,PepsiCo,www.pepsico.com
-6,Johnson & Johnson,www.jnj.com
-7,Danone,www.danone.com
-8,Bayer,www.bayer.com
-9,General Mills,www.generalmills.com
-10,GlaxoSmithKline (GSK),www.gsk.com
-11,Kellogg’s,www.kelloggs.com
-12,Merck & Co.,www.merck.com
-13,Unilever,www.unilever.com
-14,Roche,www.roche.com
-15,Nestle Waters,www.nestlewaters.com
-16,Sanofi,www.sanofi.com
-17,Mondelez International,www.mondelezinternational.com
-18,Novartis,www.novartis.com
-19,Kraft Heinz,www.kraftheinzcompany.com
-20,Eli Lilly and Company,www.lilly.com
-21,Tyson Foods,www.tysonfoods.com
-22,Teva Pharmaceuticals,www.tevapharm.com
-23,"Mars, Incorporated",www.mars.com
-24,AbbVie,www.abbvie.com
-25,Campbell Soup Company,www.campbellsoupcompany.com
-26,Amgen,www.amgen.com
-27,Conagra Brands,www.conagrabrands.com
-28,AstraZeneca,www.astrazeneca.com
-29,Molson Coors,www.molsoncoors.com
-30,Boehringer Ingelheim,www.boehringeringelheim.com
-31,AB InBev,www.abinbev.com
-32,BASF,www.basf.com
-33,Diageo,www.diageo.com
-34,Procter & Gamble (P&G),www.pg.com
-35,Heineken,www.theheinekencompany.com
-36,Medtronic,www.medtronic.com
-37,McKesson,www.mckesson.com
-38,AmerisourceBergen,www.amerisourcebergen.com
-39,Cardinal Health,www.cardinalhealth.com
-40,Medline Industries,www.medline.com
+Company_ID	Company_Name	Industry	Revenue	Growth_Rate	Location
+Company_16	Retail			Canada
+Company_34	Education		0.74	Australia
+3.0	Company_32	Finance			India
+Company_36	Education			Australia
+5.0	Company_1	Technology		35.64	Australia
+Company_28	Healthcare	187.63	39.16	Canada
+Company_22	Retail	482.63		Canada
+8.0	Company_45	Retail		13.52	India
+Company_46	Finance	611.12	6.96	Canada
+10.0	Company_33	Technology	802.36		Australia
+Company_4	Education	326.48		Canada
+Company_3	Technology	313.93	47.95	Canada
+13.0	Company_22	Finance	140.29	38.46	USA
+Company_9	Healthcare	41.5	-9.04	Australia
+15.0	Company_23	Education	236.64		Australia
+16.0	Company_44	Finance	427.41	-8.99	Germany
+17.0	Company_45	Retail			Germany
+18.0	Company_33	Retail		32.13	USA
+Company_21	Technology	230.62		Germany
+20.0	Company_16	Education	284.8		India
+Company_49	Technology		6.74	Canada
+Company_39	Healthcare	12.3		Canada
+23.0	Company_6	Healthcare		-9.81	Australia
+24.0	Company_9	Finance			Canada
+25.0	Company_24	Technology	299.74	20.33	Canada
+26.0	Company_50	Education	655.43	38.33	Australia
+Company_4	Healthcare	98.64	5.88	India
+28.0	Company_31	Finance		23.71	Australia
+29.0	Company_50	Education	342.79	41.2	USA
+30.0	Company_26	Technology		-9.5	Canada
+Company_32	Retail	136.98	18.53	Canada
+32.0	Company_30	Healthcare	4.89		Australia
+33.0	Company_36	Technology	446.31		India
+Company_44	Healthcare	2.45		India
+35.0	Company_50	Education	178.01		Germany
+Company_3	Education	821.31		Canada
+37.0	Company_1	Education			Canada
+38.0	Company_12	Education	572.69		USA
+39.0	Company_21	Education		40.67	USA
+40.0	Company_20	Finance			India
+Company_18	Education	425.31		Australia
+42.0	Company_8	Technology	831.87		USA
+Company_28	Technology			Canada
+44.0	Company_3	Retail	354.85		USA
+Company_32	Technology			USA
+46.0	Company_26	Education	561.79	-9.09	USA
+Company_32	Retail			Canada
+Company_16	Healthcare		33.67	Germany
+49.0	Company_43	Retail	572.16	-7.89	USA
+Company_1	Finance	419.19	13.05	Canada
+Company_37	Finance		14.71	Canada
+52.0	Company_11	Technology	289.48		India
+53.0	Company_23	Finance	505.03	48.61	USA
+Company_45	Technology			Canada
+Company_16	Retail	969.92	33.07	Canada
+Company_44	Healthcare			Germany
+57.0	Company_24	Technology			Australia
+Company_32	Healthcare	54.32		USA
+Company_18	Technology			USA
+60.0	Company_2	Technology	159.25		USA
+61.0	Company_16	Healthcare	468.46	16.6	Australia
+Company_10	Finance			India
+Company_41	Finance	962.77		Australia
+64.0	Company_26	Technology	99.62		Australia
+Company_10	Technology		-3.38	Australia
+Company_2	Education	973.43	8.35	Canada
+67.0	Company_39	Finance			India
+68.0	Company_8	Technology			India
+69.0	Company_33	Technology			USA
+Company_29	Healthcare		16.18	India
+71.0	Company_46	Technology	35.32	23.71	India
+Company_20	Education		41.92	USA
+73.0	Company_18	Education		38.21	USA
+74.0	Company_1	Healthcare	260.29		Australia
+75.0	Company_13	Healthcare	485.92		USA
+Company_18	Healthcare		40.58	Australia
+77.0	Company_50	Technology		21.58	Canada
+78.0	Company_6	Healthcare	709.61	31.15	Canada
+Company_36	Healthcare	750.32		Australia
+Company_25	Finance		47.79	Australia
+81.0	Company_12	Finance	42.81	10.28	India
+82.0	Company_30	Finance	406.78	-1.67	Germany
+Company_24	Education			Canada
+Company_19	Healthcare		20.67	Germany
+85.0	Company_32	Education	723.17	6.41	Australia
+86.0	Company_39	Technology	475.19	-4.08	Germany
+Company_34	Finance	7.58	9.2	Canada
+Company_47	Healthcare	300.98	14.14	Canada
+Company_45	Finance	627.49		USA
+90.0	Company_48	Education	705.53	21.27	Canada
+91.0	Company_12	Retail		33.76	Canada
+Company_5	Education			Australia
+Company_28	Technology		46.9	Canada
+Company_44	Finance	931.41		USA
+Company_13	Finance		49.25	Canada
+Company_47	Education		33.02	Germany
+Company_49	Technology			Australia
+Company_50	Technology		21.33	Canada
+Company_29	Technology	97.74	-8.97	India
+100.0	Company_14	Healthcare	871.27		Australia
